@@ -1,6 +1,6 @@
 # Instalação ZSH
 
-## Para realizar a instação do ZSH em sua distribuição linux, execute uns dos modos abaixo em seu terminal:
+Para realizar a instação do ZSH em sua distribuição linux, execute uns dos modos abaixo em seu terminal:
 
 ### Modo1:
 ```bash
