@@ -10,6 +10,6 @@ sh -c "$(curl -fsSL https://github.com/Kionovelletto/zsh/blob/main/install_zsh_b
 ### Modo2:
 ```bash
 wget https://github.com/Kionovelletto/zsh/blob/main/install_zsh_bira.sh
-chmod +x install_zsh_bira.sh
+sudo chmod +x install_zsh_bira.sh
 ./install_zsh_bira.sh
 ```
