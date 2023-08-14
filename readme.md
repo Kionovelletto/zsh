@@ -1,4 +1,5 @@
-# Instalação ZSH
+# Instalação ZSH via shell script
+- ZSH é um interpretador de comandos para linux que contém features que melhora sua exériência e usabilidade no sistema operacional.
 
 Para realizar a instação do ZSH em sua distribuição linux, execute uns dos modos abaixo em seu terminal:
 
