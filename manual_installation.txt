@@ -1,0 +1,37 @@
+
+# INSTALL OH MY ZSH
+sudo apt install zsh 
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# INSTALATION
+Time to change your default shell to zsh:
+Do you want to change your default shell to zsh? [Y/n] --- Yes
+
+# CONFIGURATION
+
+vim ~/.zshrc
+
+Ajustment:
+#ZSH_THEME="robbyrussell"
+ZSH_THEME="bira"
+
+
+
+# INSTALL PLUGINS
+cd $ZSH/custom/plugins
+git clone https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/ssh
+
+vim ~/.zshrc	
+plugins=(git git-extras history ansible aws python ssh docker colorize web-search)
+
+
+# ACTIVATE ZSH DEFAULT ON TERMINAL
+which zsh
+
+chsh -s $(which zsh)
+		or
+chsh -s /usr/bin/zsh
+
+
+# RETURNE BASH DO DEFAULT ON TERMINAL
+chsh -s $(which bash)
