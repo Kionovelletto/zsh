@@ -35,3 +35,14 @@ chsh -s /usr/bin/zsh
 
 # RETURNE BASH DO DEFAULT ON TERMINAL
 chsh -s $(which bash)
+
+
+# IF YOUR USER IS FROM THE DOMAIN AND DOES NOT HAVE IT LOCALLY
+EDITE:
+vim ~/.bashrc
+
+AND ADD IT TO THE END OF THE FILE:
+
+if [ -t 1 ]; then
+    exec zsh
+fi
