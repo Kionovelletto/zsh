@@ -22,7 +22,7 @@ cd $ZSH/custom/plugins
 git clone https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/ssh
 
 vim ~/.zshrc	
-plugins=(git git-extras history ansible aws python ssh docker colorize web-search)
+plugins=(git git-extras history ansible aws python ssh docker colorize web-search kubectl)
 
 
 # ACTIVATE ZSH DEFAULT ON TERMINAL
